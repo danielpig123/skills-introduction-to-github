@@ -1,0 +1,97 @@
+
+        main section h1 {
+            position: absolute;
+            left:5vw;
+            section-top: 0;
+            line-height:120px; 
+        }
+        main section h2 {
+            position: absolute;
+            left:5vw;
+            section-top:0;
+            line-height: 120px;
+            
+        }
+        p {
+            
+            font-size: 24px;
+        }
+
+        header{
+            background-color: rgba(189, 165, 122, 0.589);
+            height: 150px;
+            width: 100%;
+            position: fixed;
+        }
+        header ul{
+            position: absolute;
+            right:5vw;
+            top:0;
+            line-height: 150px;
+            background-image: url(images/3c76f7b22f7ff1b33eff46700512a69d.jfif);
+            
+        }
+        header ul li{
+            display: inline;
+            margin-right: 3vw;
+        }
+
+        header a{
+            text-decoration:none
+        }
+        header a:hover{
+            text-decoration:underline;
+        }
+       
+        section,footer{
+            background-color:rgba(189, 165, 122, 0.589);
+            color: white;
+            height: 70vh;;
+            width: 100%;
+            margin-top: 50px;
+            padding: 0px;
+            background-image: url(images/3c76f7b22f7ff1b33eff46700512a69d.jfif);
+            background-repeat : no-repeat;
+            background-size:contain;
+            background-position:center;
+
+
+        }
+       
+        
+/* /
+ <br> 換行
+ _:hover 當游標停在上面時
+ display: inline 改為行內元素
+
+ border 邊框, padding 內邊距, margin 外邊距(每個元素之間的距離) 
+
+ border-radius: 邊框圓角效果
+ padding,margin:   
+            一個數值:上下左右通用 
+            兩個數值:上下 左右 
+            三個數值:上 左右 下 
+            四個數值:上 右 下 左(順時針)
+
+text-decoration 文字裝飾
+
+backrground-size:auto 維持圖片本大小
+                 contain 只填滿容器的寬度或高度
+                 cover 填滿整個容器
+
+
+display:flex
+
+flex-direction:  定義主軸的分向  (column設為垂直)
+justify-content: 主軸方向的元素分布
+align-items:  垂直主軸方向的元素分布
+
+
+                 */ 
+    /* header,section,footer{
+        background-color: burlywood ;
+        border: 10px  gray solid;
+        padding: 20px 50px 10px 10px;
+        margin: 20px ;
+        
+    } */
